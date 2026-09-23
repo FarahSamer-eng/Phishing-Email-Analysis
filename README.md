@@ -39,7 +39,6 @@ Key indicators included:
 * Spoofed sender address
 * Fake transaction details
 * PayPal brand impersonation
-* Suspicious recipient address
 * URL shortening used to hide the final destination
 
 ### 2. Fake Shipping Notification
@@ -70,25 +69,25 @@ Key indicators included:
 
 ### 4. Fake Netflix Notification
 
-The email impersonated Netflix and used a malicious PDF attachment as part of the phishing attempt.
+The email impersonated Netflix and used a suspicious PDF attachment as part of the phishing attempt.
 
 Key indicators included:
 
 * Brand impersonation
 * Suspicious attachment
 * Social engineering
-* Malicious PDF document
+* Suspicious PDF document
 
 ### 5. Fake Apple Notification
 
-The email impersonated Apple and used a malicious Microsoft Word template attachment.
+The email impersonated Apple and used a Microsoft Word template attachment.
 
 Key indicators included:
 
 * Apple brand impersonation
 * BCC usage
 * Suspicious `.dot` attachment
-* Malicious document delivery
+* Suspicious PDF attachment
 
 ### 6. Fake DHL Notification
 
