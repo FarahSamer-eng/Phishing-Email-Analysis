@@ -145,3 +145,21 @@ No real-world systems or accounts were targeted.
 * Credential Harvesting Analysis
 * Malicious Attachment Analysis
 * Security Documentation
+
+## Evidence
+
+### 1. Fake PayPal Transaction
+
+![PayPal Phishing](screenshots/paypal-phishing.png)
+
+### 2. Fake Shipping Notification
+
+![Shipping Tracking Analysis](screenshots/shipping-tracking-analysis.png)
+
+### 3. Credential Harvesting
+
+![Credential Harvesting](screenshots/credential-harvesting.png)
+
+### 4. Malicious DHL Attachment
+
+![DHL Malicious Attachment](screenshots/dhl-malicious-attachment.png)
