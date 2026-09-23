@@ -148,30 +148,30 @@ No real-world systems or accounts were targeted.
 
 ### 1. Fake PayPal Transaction
 
-![PayPal Phishing](screenshots/paypal-phishing.png)
+![PayPal Phishing](./screenshots/paypal-phishing.png)
 
 Merchant: **Amazing Stuff**
 
 ### 2. Fake Shipping Notification
 
-![Shipping Tracking Analysis](screenshots/shipping-tracking-analysis.png)
+![Shipping Tracking Analysis](./screenshots/shipping-tracking-analysis.png)
 
 The source code shows the tracking pixel and suspicious redirect infrastructure.
 
 ### 3. Credential Harvesting
 
-![Credential Harvesting](screenshots/credential-harvesting.png)
+![Credential Harvesting](./screenshots/credential-harvesting.png)
 
 The screenshot demonstrates the fraudulent Outlook login page used for credential harvesting.
 
 ### 4. Suspicious DHL Email
 
-![DHL Suspicious Email](screenshots/dhl-suspicious-email.png)
+![DHL Suspicious Email](./screenshots/dhl-suspicious-email.png)
 
 The evidence shows the suspicious Excel attachment and inconsistencies in the email content.
 
 ### 5. Malicious DHL Payload
 
-![DHL Malicious Payload](screenshots/dhl-malicious-payload.png)
+![DHL Malicious Payload](./screenshots/dhl-malicious-payload.png)
 
 The evidence shows the referenced executable `regasms.exe` and the attempted payload execution.
