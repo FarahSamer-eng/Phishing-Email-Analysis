@@ -12,7 +12,7 @@ The investigation focused on identifying phishing indicators, analyzing email co
 * Analyze spoofed sender addresses and display names.
 * Investigate suspicious hyperlinks and URL redirection.
 * Identify tracking pixels and link manipulation techniques.
-* Analyze malicious email attachments.
+* Analyze suspicious email attachments.
 * Identify credential harvesting techniques.
 * Document phishing techniques and recommended security controls.
 
@@ -26,7 +26,7 @@ The investigation focused on identifying phishing indicators, analyzing email co
 * URL redirection
 * Tracking pixels
 * Credential harvesting
-* Malicious attachments
+* Suspicious attachments
 
 ## Email Sample Analysis
 
@@ -80,18 +80,17 @@ Key indicators included:
 
 ### 5. Fake Apple Notification
 
-The email impersonated Apple and used a Microsoft Word template attachment.
+The email impersonated Apple and contained a suspicious Microsoft Word template attachment. The email body was blank.
 
 Key indicators included:
 
 * Apple brand impersonation
 * BCC usage
-* Suspicious `.dot` attachment
-* Suspicious PDF attachment
+* Suspicious `.dot` attachment (Microsoft Word Template)
 
 ### 6. Fake DHL Notification
 
-The email impersonated DHL and delivered a malicious Excel attachment.
+The email impersonated DHL and delivered a suspicious Excel attachment.
 
 The attachment contained a reference to an executable file:
 
@@ -100,7 +99,7 @@ The attachment contained a reference to an executable file:
 Key indicators included:
 
 * DHL brand impersonation
-* Malicious `.xlsx` attachment
+* Suspicious `.xlsx` attachment
 * Executable file reference
 * Social engineering
 
@@ -151,14 +150,22 @@ No real-world systems or accounts were targeted.
 
 ![PayPal Phishing](screenshots/paypal-phishing.png)
 
+Merchant: **Amazing Stuff**
+
 ### 2. Fake Shipping Notification
 
 ![Shipping Tracking Analysis](screenshots/shipping-tracking-analysis.png)
+
+The source code shows the tracking pixel and suspicious redirect infrastructure.
 
 ### 3. Credential Harvesting
 
 ![Credential Harvesting](screenshots/credential-harvesting.png)
 
+The screenshot demonstrates the fraudulent Outlook login page used for credential harvesting.
+
 ### 4. Malicious DHL Attachment
 
 ![DHL Malicious Attachment](screenshots/dhl-malicious-attachment.png)
+
+The evidence demonstrates the suspicious Excel attachment and the referenced executable `regasms.exe`.
