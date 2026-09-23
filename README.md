@@ -175,3 +175,8 @@ The evidence shows the suspicious Excel attachment and inconsistencies in the em
 ![DHL Malicious Payload](./screenshots/dhl-malicious-payload.png)
 
 The evidence shows the referenced executable `regasms.exe` and the attempted payload execution.
+
+## Connect with Me
+
+- LinkedIn: [Farah Samer](https://www.linkedin.com/in/farah-samer-b35201386)
+- GitHub: [FarahSamer-eng](https://github.com/FarahSamer-eng)
