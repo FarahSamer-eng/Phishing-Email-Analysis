@@ -164,8 +164,14 @@ The source code shows the tracking pixel and suspicious redirect infrastructure.
 
 The screenshot demonstrates the fraudulent Outlook login page used for credential harvesting.
 
-### 4. Malicious DHL Attachment
+### 4. Suspicious DHL Email
 
-![DHL Malicious Attachment](screenshots/dhl-malicious-attachment.png)
+![DHL Suspicious Email](screenshots/dhl-suspicious-email.png)
 
-The evidence demonstrates the suspicious Excel attachment and the referenced executable `regasms.exe`.
+The evidence shows the suspicious Excel attachment and inconsistencies in the email content.
+
+### 5. Malicious DHL Payload
+
+![DHL Malicious Payload](screenshots/dhl-malicious-payload.png)
+
+The evidence shows the referenced executable `regasms.exe` and the attempted payload execution.
